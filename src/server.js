@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import {sql} from "./config/db.js";
 import transactionsRoute from "./routes/transactionsRoute.js";
 import rateLimiter from "./middleware/rateLimiter.js";
-import {job} from "./config/cron.js";
+import job from "./config/cron.js";
 
 
 dotenv.config();
